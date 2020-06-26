@@ -1,0 +1,83 @@
+body{
+  margin:0px;
+}
+.App{
+width:35%;
+background-color: #4c8bf5;
+height:fit-content;
+margin-left:auto;
+margin-right:auto;
+border-radius: 8px;
+padding:20px 50px;
+box-sizing: border-box;
+box-shadow: 2px 2px 6px #4c8bf5;
+color:white;
+margin-top:20px;
+}
+/* .App h1{
+  font-size: 16px;
+} */
+.Tocken_Form_Wrapper h1{
+  font-size: 16px;
+}
+.App:hover{
+  background-color: orange;
+  transition:20s;
+}
+.App button:hover{
+  color:orange;
+  transition: 1s;
+}
+.App input{
+  width:60%;
+  float: right;
+  padding:2px 4px;
+  font-size:14px;
+}
+.App button{
+ width:100%;
+ margin-top:10px;
+ cursor:pointer;
+ color:#4c8bf5;
+ padding:4px;
+ font-size:14px;
+ outline:none;
+
+}
+.App button:hover{
+  color:orange;
+  
+}
+.MintingInput{
+  margin-top:8px;
+}
+
+@media(max-width:600px){
+
+  .App{
+    width:80%;
+    padding:20px 20px;
+    }
+  .App button{
+    font-size:14px;
+  }
+
+}
+@media(min-width:600px) and (max-width:768px){
+  .App{
+    width:60%;
+  }
+}
+
+@media(min-width:768px) and (max-width:992px){
+  .App{
+    width:50%;
+  }
+
+}
+
+@media(min-width:992px) and (max-width:1200px){
+  .App{
+    width:40%;
+  }
+}
